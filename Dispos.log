@@ -1,0 +1,835 @@
+INFO:root:
+2023-06-08 15:49:49.823219 RsSVw_iRx-mAtWflcLDdRi52W03wNrJUcmf2_AVHOyncYVT6ZoGAbQGPZcGv-2T4im3axohwYjYTNDzxHJI4RcS2hNYPHH2A5mLpLtEpkxb_hboD8G4hnIap12_Esc4JQKwB1aPBDbbainQEzGBxrfEc42sUaAtImWBsCa2EZ1COOM1fLI7Opw69S--Tfj8iOEQJVL4ybdNZZTe4O2rBzW6iY2c8XPa7RVQ1EFeXkz-vYvNo_H61i1B8QaLXpGuKyrod3NL1nahXxJrOBAKjFCAzSLBnckDTs4pmEMNAxYyLOqsYPQZI-SuozjK0Lw-fxl-FTFueHXrAKFRsFMilqrHTGAw-IQLnw5Itr-lBvZsSNVDNDMf6gZUhvH5gz-2EV2esgRm-vaUsUSkpz6z2uwWHpkKswAfYYtZfCQ3oU2POSRtXXE2HUkSv6uslNpJul2oJgZnwS3SIlQJu_I-Ekk7iE7dH2a8DlVzijDbhmj7QgtNx24F2oRv_vtvayP8DxlnwSw
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ60aa4c87149947748021169cdc84953b HTTP/1.1" 200 None
+INFO:root:
+2023-06-08 15:49:51.375254 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ60aa4c87149947748021169cdc84953b HTTP/1.1" 200 236
+INFO:root:
+2023-06-08 15:49:56.467588URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/08/6e0ab8bc5f804b36ba9c2e1fc9985f03.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/08/6e0ab8bc5f804b36ba9c2e1fc9985f03.zip HTTP/1.1" 200 4997
+INFO:root:
+2023-06-08 15:50:29.383211 File could not be extracted. Probably permission issue
+INFO:root:
+2023-06-08 15:52:46.466173 LAmsWqfbBRIZAHlqMLgFhcoxHPsjyqCfdU52jk_b-mZyrYAnTWfsEXL8DUcWoDOa8zrX-HeZvt8qgYCVsNtVBWiR0ijW5r8WF4Eb-TkGWOshE7GdAlfaXQm97ffB5VgXIXeOO_5u8o-qLLuLqOVyAbPZfnepHC2Iq692qrsfwDTM2x9ThPG40qyZo0Q3y0J2_SsSo69szc_0yRjuqaLwgxsI-VGDCpuTFXoc-dYwZunkXtC7aYm87x4HuCzK5evyqFDx7V_UqwhvZ7-frKmoj9lw0YF_vwZ9Je3bnrPS8DCcIL0r8l7EMpG0qP9-9C7oTS2CiWI9bcVNFXnxpGknCRv_UVuWR6MRMxKbl1udBhWmtgVWWoG5nYooGFHrfIA_36SH-9DLK5dWMYK2eOsUodDYbLHKoanml-H2-DUmLmnjsIYRoYcMcvS6mV-fWzZvb0AfL8tWe7VabTsmGCJTj-qWDkmGKAj_pBeFSLa-QOYC9TZ15sR-b548xvdOVGiguFnsfA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ9e258ea0af35438c9ba2833aad5668e7 HTTP/1.1" 200 188
+INFO:root:
+2023-06-08 15:52:46.856788 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ9e258ea0af35438c9ba2833aad5668e7 HTTP/1.1" 200 None
+INFO:root:
+2023-06-08 15:52:52.025369URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/08/a8124ad064664fad828110076a172027.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/08/a8124ad064664fad828110076a172027.zip HTTP/1.1" 200 4997
+INFO:root:
+2023-06-08 15:52:59.614095 Zip file extracted
+ERROR:root:
+2023-06-08 15:52:59.614219 An error occurred: [Errno 2] No such file or directory: 'EJ9e258ea0af35438c9ba2833aad5668e7'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:
+2023-06-08 15:56:12.163241 K-N8OBKIedAHnWI5ooDXlJJZLW03AVBWyUkNJWpWmzA7SrylSfpjYT5AC7uM-3FCABtMyeVSI9GLWDcNv2wHltduTdD5A0cp7UhbJvWZVPz36Zw5Q2A_V3UUHICu4hRTYYjpm7Xhp6sEJcf20d1CtSV1nOtX5LP2YOX5iFT1fEKO3QvTMYgkyag2bEUodFNi20UW32-kQnhGn4FVFuFnDWoC5CagTZgBOak0aUai1xYPMi82Z7QzbZVaHduBnQAnzbFRrxSmW3qMpwtyWvedvyhSKkQOjYQ3SyipYE9YKecFUGxNBEGuK-WCVcZgAk-Nk13aVPcSIvIF5rrOsE4Cgr01aPLYhrxD5j5-4uG5bHpR5rYqT5l7U01T_Qm6OPL_kNXqfFnu4CA1Ir2_vXJnFoiCqmN6_JjOBn04Q7zheP_m8ouZTyNLBY07jK2FWhdxre8zqVvh7ziRF_RT5Oh03cp_L-dUGxYBlC-i6gnh86pukiDxX-eHNGVHZDfjJTAszUFJsA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ9196d3709b904dc38c6381942cd53b85 HTTP/1.1" 200 None
+INFO:root:
+2023-06-08 15:56:12.996917 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ9196d3709b904dc38c6381942cd53b85 HTTP/1.1" 200 None
+INFO:root:
+2023-06-08 15:56:18.093190URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/08/83eb8f316e754e20ba1dc516a33c4f91.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/08/83eb8f316e754e20ba1dc516a33c4f91.zip HTTP/1.1" 200 4997
+INFO:root:
+2023-06-08 15:56:18.224190 Zip file extracted
+ERROR:root:
+2023-06-08 15:56:18.224326 An error occurred: [Errno 2] No such file or directory: 'EJ9196d3709b904dc38c6381942cd53b85'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/token HTTP/1.1" 200 1441
+INFO:root:
+2023-06-09 09:41:18.850089 VlvUPAXOEZ9CcbIe1jKLCRIC6boQgkhK3KVWpMjptt5LAXLuXQ4gSzRe3BtmYtkjx62cgxBbLnMuxS5kvAx5DZ9FUq1bbPfhAPWZVZSetud582ygt4iDaOyuNQ0keyldjQCSmbEMLZWk1vfpOXEi3mf75yrv3dnul3BXt7umDfIaG5Xe5H67571z74t3LS8p1tBT-CIDz4mSLBTf5WAbcJURUi0S_LoEGBmWirpNGuZEhtQAaBA1axmWTB7x2fSerfVYlaM0W0cjJYhNa23K4uMCqMKOMlwQDeHXq35wQOvf4jvt3OowAq5E5Bbp222QErGLPbMnK8g473FMweFqSskBQTJ_WIrbUn2aMrh6kBreCGdPkd5tS9bSorK3-JsCGciinrGIaPfWhaZakZQYN7yWgn0YhRzJPo3uCbRiqGmubnR4r1A-btJgXJbJEvkLOGat1Jn8JmQPukHtu-kMnzO_Ff46z3F4W5hE7491wHgCOsN949ce8Ab3Umrj8O3NamwC2w
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJf167e6bf3ed640ae8f8bcda248e3929b HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 09:41:19.090754 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJf167e6bf3ed640ae8f8bcda248e3929b HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 09:41:24.171817URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/09/cc9646d2328646e9a41e535f34bb5359.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/09/cc9646d2328646e9a41e535f34bb5359.zip HTTP/1.1" 200 4553
+INFO:root:
+2023-06-09 09:41:24.270205 Zip file extracted
+ERROR:root:
+2023-06-09 09:41:24.270455 An error occurred: [Errno 2] No such file or directory: 'EJf167e6bf3ed640ae8f8bcda248e3929b'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+INFO:root:
+2023-06-09 09:47:24.937208 g_QBJ1GLDQjMZeuaisTidP0kMt8hRZAUFnRROKmcNR4CTWYSdZi9QCbox_R8m1iB_b4389_gaRmI_6AzADoKBOvOZOLuuzXkITeuPqae6TP4foQ_3cGXsaPTqtnDZwrZxVk52pU-yftU623sVUOfk-I2IbOU5MPu-je9TZwiVjkrPwTmvxMmLgbZZVcSLDk8aEjzHPCyaddLbuzy5BeswsyeNNPIcOenwWpjA8JR074D5AwOcU6ELEjsCLjwZQkjrnRRhneVYyHePREf-wp72dCTI2jlLYG207cI67oCW_AEVcssssimprN1NFCBqju0hd5TtKhpqnhrm68KUgjHM2YQADGeirWxTL2By3e1UlPhXzcMnpb43DpkUsJHIKoTKEp6QpCDGBupHB_tZNo1eULLNl0vxpnvIIggJl8edXigJ8Z8p7W5I5g4xsgdF-F6TLyI6vibPAMOVQ8uiXTvdQTH9uKIltO7PAeCUjQ2JFFpoXUhyLxZ_6mIw3IEnACFp3Uigg
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ6ea0c3f820364d0194219cf70de2f85d HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 09:47:31.334650 {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/09/9146c1b025904df99d1c285b5f1f99db.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/09/9146c1b025904df99d1c285b5f1f99db.zip HTTP/1.1" 200 4553
+INFO:root:
+2023-06-09 09:47:33.753285 Zip file extracted
+ERROR:root:
+2023-06-09 09:47:33.753423 An error occurred: [Errno 2] No such file or directory: 'EJ6ea0c3f820364d0194219cf70de2f85d'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+INFO:root:
+2023-06-09 10:01:06.545301 tUlpcSIDH4q8jHwiE4yiZ6GbJ_r-7voR6z-wXiHat7gv_HoPM1EwjY31RszmATiAMAqseNJcQ4cPZPI-W6WK2lohPIQBZA8yCyBco9j6DFnjsnVf6jRcz9wNlEkEOsJMI_chf0MOZv71cQfdIJSJbEa7rLgMIK8N5ZsJRuT4BVYoTwdVQL-MaTexlemzZd14j1NN4bEs-j8QS0YKNCdr4GqVawtxBwsX8cLTpuUWVUVzwZHs5R_7lROkAHCrpHFrLSauyc3DcdVk8rkPhUTF97RELxnmdMlvm3Wa0jp0OI0BWq5q6hX_c09J_FPpUjEFxj8XyPmmWbF2X9946t5i8OZkqEeNumTuiwOZGScZEdVcS3VOHhl5QG2efB00LlhkWkEb1S2M9yg2rGcsJM4kB5Q1bfHxALrr5ShoOL0qm2j9YDgLxqCm-LOmqTLUfYZNWVcy-CsYsIZr42AowzRZT1jBtq3BOzY-6PT_4T8QsfN2JBXqM72rEIDtoEsOtp9ym57wWA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ0178deae1b0d4af8aeb5f5a6026bf34d HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:01:07.041360 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ0178deae1b0d4af8aeb5f5a6026bf34d HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:01:12.125456URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/09/76f7999fbeee4fbda91595bb5c42ca3b.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/09/76f7999fbeee4fbda91595bb5c42ca3b.zip HTTP/1.1" 200 4553
+INFO:root:
+2023-06-09 10:01:12.253667 Zip file extracted
+ERROR:root:
+2023-06-09 10:01:12.253798 An error occurred: [Errno 2] No such file or directory: 'EJ0178deae1b0d4af8aeb5f5a6026bf34d'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=%7Bauth_token%7D&status=&list_id=%7Blist_id%7D&start_time=%7Bstart_time%7D&end_time=%7Bend_time%7D&limit=%7Blimit%7D&offset=%7Boffset%7D&order=%7Border%7D&call_type=%7Bcall_type%7D&called_count=%7Bcalled_count%7D&include_recordings=%7Binclude_recordings%7D HTTP/1.1" 200 80
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:49:05.997826 mTRgFQSEzU5oCBn3YVkzT9E9pTa4ToZCg4UNK1CRTkXxqCYXPgoqlx6exBYyEHvUpVYmbAuWAF0TI_ooAfo68TWuupZDzOXtFGLRy2ekevyF2zIl5jlMsQefVU10am8GCCtULwXXChheCfk1qZqIqehJ4KMWeQX-cVWZLu4iQbKA3m2d5-jzD2eL44jnqfBV1ajete7brGFJblNDRSDJCKh7DV78WycN0z33GR_fbuAGziEdL7veJ6s3cAOHwAWNT3pPwmZyIIQLPV8wxh7OWCdn02HuJrp3o5tcraSnrtzlPOBIMikk_mkWi3Ns3yzV359EiI01U05YEeaFplF95x4vFjP1BUanaSwNOhkDKW3R8DQ9aahsU6UgW8Ji6vn5FyY0IPnmo8tQETSegxYX6vNpuIGK595WzFUxVu_s-v5oNW2DwT13N6ItZOBgTvWfej8mtapVxEcnWx6tv6jH-zbo7oxAGwzkiZNlTEBF6b6YDt9gElb58Z4iTm_sEAaG_I4dlw
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ4b768db6621b4286af1d1e08e06b830c HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:49:06.216877 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJ4b768db6621b4286af1d1e08e06b830c HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:49:11.303150URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/09/2176ea090b1c4063809f0536efb44c10.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/09/2176ea090b1c4063809f0536efb44c10.zip HTTP/1.1" 200 4553
+INFO:root:
+2023-06-09 10:49:11.425829 Zip file extracted
+ERROR:root:
+2023-06-09 10:49:11.425957 An error occurred: [Errno 2] No such file or directory: 'EJ4b768db6621b4286af1d1e08e06b830c'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=1000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=1500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=2000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=2500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=3000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=3500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=4000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=4500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=5000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=5500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=6000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=6500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=7000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=7500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=8000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=8500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=9000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=9500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=10000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=10500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=11000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=11500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=12000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=12500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=13000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=13500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=14000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=14500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=15000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=15500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=16000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=16500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=17000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=17500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=18000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=18500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=19000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=19500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=20000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=20500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=21000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=21500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=22000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=22500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=23000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=23500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=24000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=24500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=25000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=25500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=26000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=26500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=27000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=27500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=28000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=28500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=29000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=29500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=30000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=30500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=31000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=31500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=32000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=32500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=33000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=33500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=34000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=34500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=35000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=35500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=36000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=36500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=37000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=37500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=38000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+INFO:root:
+2023-06-09 10:50:17.061760 Y7ey3LmI0XWzL6uQw1OTqOI7ydS65ZOr5hPu5WEd7KT8lBI8GJDXI1M_W-jdiFlPNcaRL_jXedQ-GpadPpZZsh0Sh64tx41F8IoniX8WC63tQrIBfYDSOC31t6cNAFXmVfFcc_hRiYupY-6brpT5wvpqyXgomVZ-fqG38wI3NKZ4Go0_4vYo2SzpSNRQLBL-Vy_xQDZWCGROF5UwT2gDD82YtnJQIszbT0P2I5_lthlYTbd1WQVIQJETyn_Ps98Qw0gKqwcVk_q8M9nABqVdJsPP9bVacypLK2Sp0Ku9IlJB-4dvUgHuoNtxxpdIeJCQj-qlbahXNwZz3gAJx3zG8vxH6-10xI0aaXml0g5tLEGNYjgD1ROeIWRGcvlJEIHCTM8JT1Zxle7hEOl96XCwuJhTM4t615KkTQlFDPdOevGqPhZBWL-BMGjt2jjk2teAikQao7IaaAQGoh-5UBM0PObkjlXNWLV6eKPI9Ghi8IZukjKRFhYJ1ZTCmJpWziiBCxZ3RQ
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJc42138697f8f434c91593c80dff69c6c HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:50:17.257173 {"status":"Pending","progressStage":null,"progressDone":0,"progressTotal":0,"progressPercent":-100.0}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJc42138697f8f434c91593c80dff69c6c HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 10:50:22.338035URL is not ready for some reason {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/09/0bed518de24640a39ed92229c9593095.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/09/0bed518de24640a39ed92229c9593095.zip HTTP/1.1" 200 4553
+INFO:root:
+2023-06-09 10:50:22.444717 Zip file extracted
+ERROR:root:
+2023-06-09 10:50:22.444936 An error occurred: [Errno 2] No such file or directory: 'EJc42138697f8f434c91593c80dff69c6c'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=1000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=1500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=2000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=2500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=3000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=3500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=4000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=4500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=5000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=5500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=6000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=6500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=7000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=7500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=8000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=8500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=9000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=9500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=10000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=10500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=11000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=11500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=12000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=12500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=13000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=13500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=14000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=14500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=15000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=15500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=16000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=16500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=17000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=17500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=18000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=18500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=19000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=19500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=20000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=20500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=21000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=21500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=22000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=22500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=23000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=23500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=24000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=24500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=25000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=25500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=26000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=26500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=27000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=27500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=28000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=28500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=29000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=29500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=30000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=30500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=31000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=31500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=32000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=32500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=33000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=33500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=34000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=34500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=35000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=35500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=36000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=36500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=37000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=37500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=38000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=38500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=39000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=39500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=0&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=1000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=1500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=2000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=2500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=3000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=3500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=4000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=4500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=5000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=5500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=6000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=6500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=7000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=7500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=8000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=8500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=9000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=9500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=10000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=10500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=11000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=11500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=12000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=12500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=13000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=13500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=14000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=14500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=15000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=15500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=16000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=16500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=17000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=17500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=18000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=18500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=19000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=19500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=20000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=20500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=21000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=21500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=22000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=22500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=23000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=23500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=24000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=24500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=25000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=25500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=26000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=26500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=27000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=27500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=28000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=28500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=29000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=29500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=30000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=30500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=31000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=31500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=32000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=32500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=33000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=33500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=34000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=34500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=35000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=35500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=36000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=36500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=37000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=37500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=38000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=38500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=39000&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.convoso.com:443
+DEBUG:urllib3.connectionpool:https://api.convoso.com:443 "GET /v1/log/retrieve?auth_token=vu332i5d8jx6ppqyhmkq76sxs2e2w6fh&status=&list_id=&start_time=2023-06-08T00:00:00Z&end_time=2023-06-08T23:59:59Z&limit=500&offset=39500&order=asc&call_type=&called_count=&include_recordings=0 HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 12:36:31.342175 File created successfully
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/token HTTP/1.1" 200 1445
+INFO:root:
+2023-06-09 16:36:05.855864 wWO5hYcbsMMbfk7wy9Wu2qR7_xjoPEoCyPVt-qRs7audfPNeQSPrO0HPE9OkFp4aBm_KvwGqW35guaEvbIt9Bso23fYpNwxg4vWXgpExFGq_CD26tR4rV2RIDAtqKlmzOBjyCGWk_FnPtAd-fpeAhKLiLzE1WNJAI8E4iQUOAAP8NYaNOiAkOeOJxC-YNHJ22QP5O3I1Ail69vaZQzmBkdl6BtXtto6ToR-8a9cR3sGbCpxi_u3mI9EuNZ2q_QsP3ofRpnxhcYRJtlUvSXAbG01lkWTTCthp40dNDnlIi6jNhDo5h3PIF7_XW7lCAWqq3awovNJrOUmN3IyH3Lq99cPU9y0amQE0MupoUFEBFiO__0uIvLzRa7GhLK-lrtnmeuUr4N5vMrZjnpUsKoe2MvvoZynOfOc8so-R9uQDJkPS0T-CEdxydaQdL_7cQHKBECYO0_bWe6mdyPbWX6OfE-0uZ10JwPXz_oz8_ivNZra4rV5EA9wqwbwUJgxM3AUMKSITnQ
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "POST /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ringba.com:443
+DEBUG:urllib3.connectionpool:https://api.ringba.com:443 "GET /v2/RA0909aa9eddae40c4bb48f7253e6e8742/calllogs/export/EJa36f809c3270403280bcebe96a9352a6 HTTP/1.1" 200 None
+INFO:root:
+2023-06-09 16:36:41.060905 {"status":"Ready","url":"https://s3.amazonaws.com/ringba-export/call_logs/2023/06/09/dbe9a259bc754cbda20cf302ef41fce1.zip"}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "GET /ringba-export/call_logs/2023/06/09/dbe9a259bc754cbda20cf302ef41fce1.zip HTTP/1.1" 200 9049
+INFO:root:
+2023-06-09 16:37:04.803404 Zip file extracted
+ERROR:root:
+2023-06-09 16:37:04.803584 An error occurred: [Errno 2] No such file or directory: 'EJa36f809c3270403280bcebe96a9352a6'
